@@ -1,0 +1,14 @@
+In line number 43 of your output:
+The output should be:
+>> Uncle Buck, 15000000, $79258538, 7
+^
+But your output is: 
+******** Movies in the middle of collection ****************
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [>] ASCII code(62)
+but you printed
+  [*] ASCII code(42)
+

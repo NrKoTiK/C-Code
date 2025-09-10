@@ -1,0 +1,14 @@
+In line number 60 of your output:
+The output should be:
+00:36,00:36
+          ^
+But your output is: 
+00:36,00:35
+          ^
+
+Unmatched character details:
+The character in column 11 is supposed to be:
+  [6] ASCII code(54)
+but you printed
+  [5] ASCII code(53)
+

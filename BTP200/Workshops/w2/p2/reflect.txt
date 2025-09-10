@@ -1,0 +1,20 @@
+//Name- Syed Ahmad
+//Seneca student ID- 102437233
+//Seneca emai- asyed113@myseneca.ca
+//Date of completion- 1/13/2024
+The topics that I learnt when completing this workshop were overloading a function, pass by reference and pass by pointer I also learnt objects inside of another objects;
+
+PBA - arguments are accessed via dereferencing operator (*); when creating an array like "*tmp" to resize the previous old array to store guest this would be a pointer that needs a memory allocation.
+
+PBR - arguments are accessed via referencing operator (&); when making a nickname for the original variable such as "&theHotel"
+
+Overloading a fucntion - C++ overloads a fucntion by changing the signature of that function; for example the read() fucntion did the same task but it did it for multiple parameters which eases and simplifies code logic.
+
+The most difficulty I faced was with the display() functions as my outputs would never match or it would print the output completely incorrectly. I solved the error by slowly seeing what every line does and understanding what my output is supposed to look like because in some places you need to add guests and in some places you dont need to add guests; I first just tried to make the outputs match for A11 and A12 once that matched the outputs I basically copy pasted it for the rest of them.
+
+Out Parameter - is when you take the variable as a parameter and manipulate it and finally return the same variable. 
+
+In Parameter - is when you take the variable as a parameter and only use it for operational purposes; An example of this could be: my 
+findRoom(const Hotel& theHotel, const char* roomNumber); 
+this function takes the roomNumber as a parameter but is only used to compare to the roomnumbers stored in theHotel struct.
+

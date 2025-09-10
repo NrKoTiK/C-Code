@@ -1,0 +1,14 @@
+In line number 22 of your output:
+The output should be:
+> abc
+   ^
+But your output is: 
+> anc
+   ^
+
+Unmatched character details:
+The character in column 4 is supposed to be:
+  [b] ASCII code(98)
+but you printed
+  [n] ASCII code(110)
+

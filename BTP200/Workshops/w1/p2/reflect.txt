@@ -1,0 +1,17 @@
+I learnt a lot of new things in this class and also while doing the workshop 1 part 2. Such as declaration and definition of a function.
+- Declaration: Only declares what a functions needs it does not specify what a function does.
+- Definition: Specifies what a function does.
+I also learnt dynamic memory & Stages of Compilation 
+- Memory that is obtained fomr the OS during execution time.
+- Preprocessor: reads all the macros
+- Compiler: Compiles code into binary
+- Linker: Links all translation units into executable
+The Stages of Compilation really helped my figure out what type of error I was facing when coding. Some major issues that I was facing 
+had to do with the looping/printing the list of students and their marks. The way I solved this problem was by reaching out for help from the
+professor (Professor Cornel) and he showed me that for loop was running until the MAX_NO_RECS (1000) Which was printing useless garbage. And then
+he showed me that there is basically an inbuilt counter called "readAllMarks(marks)" which takes parameter marks, in the assignment so I just defined it like such 
+int count = readAllMarks(marks); and it endded up fixing my printing error.
+
+If main is inputted in the seneca namespace then the code will not run.
+It is easier to debug and fix a code when it is in different modules as the modules will specifically focus on one part of the program. While 
+if everything is in the same module then it will become really hard to debug or change the code.

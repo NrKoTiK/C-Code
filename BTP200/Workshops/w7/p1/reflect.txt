@@ -1,0 +1,11 @@
+When completing this assignment I learnt about inheritance of classes and I also learnt how to properly use the precision function. Being able to inherit functions such as the custom constructor and all of the other functions made
+life a lot easier when it came to coding the Workshop. I also learnt about the precision function as that is the one place I was facing the most amount of errors. I couldnt get the numerical values to double precision (2 decimal point)
+and that was causing a lot of output matching errors. The way I fixed this problem was by doing "out.setf(std::ios::fixed)" and that helped me achieve double precision in the required places. I also faced another error with the interest
+date I couldn't figure out why I was facing an output error. Turns out my output for the interest date does not match which caused me a lot of confusion. But after trying over and over again all I had to do was just assign the 
+data member "m_interestDate" to the parameter at the end of the function and it fixed all of my problems.
+
+The program would not run as the insertion and extraction operators are free helper functions they are not part of any classes which makes them no subject to inheritance.
+
+I was able to access the m_balance data by making a getter. This is a query function that allows me to access the data without having other functions manipulating or modifying the data. Non private attributes is considered a bad
+practice because it can ruin the state of the object when not implemented properly. This is called encapsulation we make data members private to keep the integrity of the objects state and keep data members unmodifiable by
+other functions. Overall making data members private helps in the long term of things it allows us to have a safer and a more relaible code.

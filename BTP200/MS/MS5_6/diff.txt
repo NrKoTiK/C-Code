@@ -1,0 +1,14 @@
+In line number 18 of your output:
+The output should be:
+General Healthcare Facility Pre-Triage Application
+^
+But your output is: 
+   Select Type of Registration:
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [G] ASCII code(71)
+but you printed
+  [Space] ASCII code(32)
+

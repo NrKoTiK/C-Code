@@ -1,0 +1,87 @@
+Script started on Sat 20 Jan 2024 07:48:15 PM EST
+==162885== Memcheck, a memory error detector
+==162885== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==162885== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==162885== Command: ws
+==162885== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+T1: Empty Hotel
+==========:==========:==========:==========:==========
+Standard Rooms:
+1. A11 (0/2)
+2. A12 (0/1)
+Family Rooms:
+1. B1001 (0/4)
+2. B1002 (0/4)
+3. B1003 (0/3)
+Suites:
+1. C201 (0/8)
+2. C202 (0/6)
+
+
+T2: Looking for a Room
+==========:==========:==========:==========:==========
+[SUCCESS] Room B102 doesn't exists in the hotel!
+[SUCCESS] Room B1002 was found in the hotel!
+B1002 (0/4)
+
+T3: Guests have arrived
+==========:==========:==========:==========:==========
+Standard Rooms:
+1. A11 (2/2): Arianna Montgomery, Edwin Montgomery
+2. A12 (0/1)
+Family Rooms:
+1. B1001 (0/4)
+2. B1002 (0/4)
+3. B1003 (0/3)
+Suites:
+1. C201 (0/8)
+2. C202 (0/6)
+
+
+T4: Too Many Guests in a Room
+==========:==========:==========:==========:==========
+Standard Rooms:
+1. A11 (2/2): Arianna Montgomery, Edwin Montgomery
+2. A12 (0/1)
+Family Rooms:
+1. B1001 (4/4): Preston Murray, Jessica Alexander, Daniel Jones, April Perry
+2. B1002 (0/4)
+3. B1003 (0/3)
+Suites:
+1. C201 (0/8)
+2. C202 (0/6)
+
+
+T5: All Travellers Have Arrived
+==========:==========:==========:==========:==========
+Standard Rooms:
+1. A11 (2/2): Arianna Montgomery, Edwin Montgomery
+2. A12 (1/1): Derek Stevens
+Family Rooms:
+1. B1001 (4/4): Preston Murray, Jessica Alexander, Daniel Jones, April Perry
+2. B1002 (4/4): Brooke Rogers, Vivian Lloyd, James Payne, Chelsea Murphy
+3. B1003 (0/3)
+Suites:
+1. C201 (2/8): Ellia Craig, Chelsea Armstrong
+2. C202 (2/6): Owen Clark, Myra Perry
+
+
+T6: Show Room C201
+==========:==========:==========:==========:==========
+C201 (2/8): Ellia Craig, Chelsea Armstrong
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==162885== 
+==162885== HEAP SUMMARY:
+==162885==     in use at exit: 0 bytes in 0 blocks
+==162885==   total heap usage: 32 allocs, 32 frees, 79,550 bytes allocated
+==162885== 
+==162885== All heap blocks were freed -- no leaks are possible
+==162885== 
+==162885== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Sat 20 Jan 2024 07:48:16 PM EST

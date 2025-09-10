@@ -1,0 +1,14 @@
+In line number 30 of your output:
+The output should be:
+T3: Guests have arrived
+^
+But your output is: 
+
+ ^
+
+Unmatched character details:
+The character in column 2 is supposed to be:
+  [T] ASCII code(84)
+but you printed
+  [Empty Line] ASCII code(0)
+

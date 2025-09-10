@@ -1,0 +1,80 @@
+Script started on Thu 04 Apr 2024 02:58:17 PM EDT
+==111361== Memcheck, a memory error detector
+==111361== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==111361== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==111361== Command: ms
+==111361== 
+Loading data...
+No data or bad data file!
+
+General Healthcare Facility Pre-Triage Application
+1- Register
+2- Admit
+3- View Lineup
+0- Exit
+> 0
+Saving lineup...
+0 Contagion Tests and 0 Triage records were saved!
+
+******  Content of file: "emptyfile.csv":
+00:15,00:05
+***************************************************
+
+Loading data...
+No data or bad data file!
+
+General Healthcare Facility Pre-Triage Application
+1- Register
+2- Admit
+3- View Lineup
+0- Exit
+> 0
+Saving lineup...
+0 Contagion Tests and 0 Triage records were saved!
+
+******  Content of file: "emptyfile.csv":
+00:15,00:05
+***************************************************
+
+Loading data...
+16 Records imported...
+
+General Healthcare Facility Pre-Triage Application
+1- Register
+2- Admit
+3- View Lineup
+0- Exit
+> 0
+Saving lineup...
+7 Contagion Tests and 9 Triage records were saved!
+
+******  Content of file: "smalldata.csv":
+00:36,00:35
+C,Apu Nahasapeemapetilon,684689164,18,08:04
+T,Barney Gumble,350158143,12,08:05,Nausea-Vomiting-Abdominal Pain
+T,Murphy Brown,763006002,13,08:07,Pounding headache
+C,Chief Clancy Wiggum,448762564,19,08:09
+C,Dewey Largo,712691397,20,08:10
+C,Eddie,547723561,21,08:13
+T,Edna Krabappel,435676529,14,08:17,Muscle tension-Nausea-Photosensitivity 
+T,Itchy,253789913,15,08:20,Chest Pain-Lightheadedness-Pain radiates to arm
+T,Janey Powell,319153275,16,08:22,Fatigue-Dry mouth-Stomach pain
+C,Jasper Beardly,119258893,22,08:23
+T,Kent Brockman,483681036,17,08:23,Cramps-Bloating-Backpain-Fatigue
+T,Krusty The Clown,950529072,18,08:25,Upset Stomach-Headache-Chills-Redness of left eye
+C,Lenny Leonard,587869296,23,08:30
+T,Lou,152561791,24,08:32,Abdominal Pain
+C,Martin Prince,666834410,25,08:33
+T,Marvin Monroe,617902450,19,08:40,Fever-Sore throat-Red blisters on tonge hand and feet
+***************************************************
+
+==111361== 
+==111361== HEAP SUMMARY:
+==111361==     in use at exit: 0 bytes in 0 blocks
+==111361==   total heap usage: 69 allocs, 69 frees, 162,421 bytes allocated
+==111361== 
+==111361== All heap blocks were freed -- no leaks are possible
+==111361== 
+==111361== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Thu 04 Apr 2024 02:58:26 PM EDT

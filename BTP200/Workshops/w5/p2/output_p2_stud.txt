@@ -1,0 +1,98 @@
+Script started on Mon 19 Feb 2024 05:23:20 PM EST
+==110360== Memcheck, a memory error detector
+==110360== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==110360== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==110360== Command: ws
+==110360== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+T1: Testing the display function and constructors.
+==========:==========:==========:==========:==========
+Superman (lvl: 1, str: 20)
+  - Flying (2)
+  - Laser Eye (8)
+  - Freezing Breath (8)
+  - Super strength (2)
+Flash (lvl: 1, str: 13)
+  - Super Speed (8)
+  - Super Healing (5)
+Martian-Man-Hunter (lvl: 1, str: 9)
+  - Telepathy (9)
+Aquaman (lvl: 1, str: 18)
+  - Water Bending (9)
+  - Animal telepathy (9)
+Green Lantern (lvl: 1, str: 10)
+  - Strong Will (10)
+~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~
+
+T2: Testing the +=/++ operators (level increase).
+==========:==========:==========:==========:==========
+Superman (lvl: 3, str: 60)
+  - Flying (2)
+  - Laser Eye (8)
+  - Freezing Breath (8)
+  - Super strength (2)
+Flash (lvl: 2, str: 26)
+  - Super Speed (8)
+  - Super Healing (5)
+Martian-Man-Hunter (lvl: 3, str: 27)
+  - Telepathy (9)
+Aquaman (lvl: 4, str: 72)
+  - Water Bending (9)
+  - Animal telepathy (9)
+Green Lantern (lvl: 5, str: 50)
+  - Strong Will (10)
+~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~
+
+T3: Testing the operator+= with negative parameters.
+==========:==========:==========:==========:==========
+Green Lantern (lvl: 3, str: 30)
+  - Strong Will (10)
+Aquaman (lvl: 1, str: 18)
+  - Water Bending (9)
+  - Animal telepathy (9)
+~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~
+
+T4: Testing the other += operator (add abilities).
+==========:==========:==========:==========:==========
+Martian-Man-Hunter (lvl: 3, str: 39)
+  - Telepathy (9)
+  - Flying (2)
+  - Super strength (2)
+Martian-Man-Hunter (lvl: 3, str: 69)
+  - Telepathy (9)
+  - Flying (2)
+  - Super strength (2)
+  - Phasing through objects (10)
+~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~
+
+T5: Testing insertion operators.
+==========:==========:==========:==========:==========
+Aquaman (lvl: 1, str: 20)
+  - Water Bending (9)
+  - Animal telepathy (9)
+  - Super strength (2)
+Green Lantern (lvl: 3, str: 45)
+  - Strong Will (10)
+  - Regeneration (5)
+~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~
+
+T6: Testing the comparison/conversion operators.
+==========:==========:==========:==========:==========
+Superman (60) stronger than Flash (26)? -> yes
+Flash (26) stronger than Superman (60)? -> no
+~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==110360== 
+==110360== HEAP SUMMARY:
+==110360==     in use at exit: 0 bytes in 0 blocks
+==110360==   total heap usage: 11 allocs, 11 frees, 75,200 bytes allocated
+==110360== 
+==110360== All heap blocks were freed -- no leaks are possible
+==110360== 
+==110360== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Mon 19 Feb 2024 05:23:20 PM EST

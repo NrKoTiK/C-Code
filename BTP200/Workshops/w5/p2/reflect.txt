@@ -1,0 +1,9 @@
+I learnt couple of new things such as when trying to access another classes private members create a public member function (Query) that just returns the data stored in the private member. Now you can access that data.
+The second thing I learnt was when trying to create the array of abilities you need a default constructor. As the variables need to be in a default state or else compiler yells at you.
+
+In this workshop the major error I was facing was with m_level and strenght for some odd reason m_level was not declared as 1 it had some random input in it I fixed this 
+error by declaring m_level again in the custom constructor. And the second problem I was facing was when a smaller negative value was inputted m_level would result to a negative
+This was fixed by rechanging the condition. I just stated if(m_level + lvlChange < 1) then set m_level to 1 and return the current instance.
+
+The reason why we didnt consider the free helpers as queries is because they are not member functions and do not affect the objects state. We only declare query or modifiers on member functions
+as they have access to objects private members and that data belonging to them. While freehelpers only have access to the object when the object is passed in as a parameter. 

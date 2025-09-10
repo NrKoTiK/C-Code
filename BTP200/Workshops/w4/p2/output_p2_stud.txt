@@ -1,0 +1,106 @@
+Script started on Tue 13 Feb 2024 11:28:39 AM EST
+==65223== Memcheck, a memory error detector
+==65223== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==65223== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==65223== Command: ws
+==65223== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+T1: Create an empty guitar object
+==========:==========:==========:==========:==========
+Empty guitar object!
+Has strings? [no]
+~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~
+
+T2: Create a guitar with a model, but no strings
+==========:==========:==========:==========:==========
+Guitar Model: Stratocaster
+Guitar cannot be used yet because it has no strings.
+Has strings? [no]
+~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~
+
+T3: Create a guitar with another model, but no strings
+==========:==========:==========:==========:==========
+Guitar Model: Les Paul
+Guitar cannot be used yet because it has no strings.
+Has strings? [no]
+~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~
+
+T4: Create a complete guitar object
+==========:==========:==========:==========:==========
+Has strings? [yes]
+Guitar Model: Yamaha C40II Classical Guitar
+Strings:
+ #1. High-Carbon Steel (0.93mm)
+ #2. Pure Nickel (0.81mm)
+ #3. Nickel Plated (0.79mm)
+ #4. Cobalt (0.95mm)
+ #5. Maraging Steel (0.76mm)
+ #6. Bronze (0.74mm)
+~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~
+
+T5: Create a complete guitar object with more strings
+==========:==========:==========:==========:==========
+Has strings? [yes]
+Guitar Model: Cordoba F7 Acoustic Nylon String Flamenco Guitar
+Strings:
+ #1. Nylon (0.5mm)
+ #2. Nylon (0.5mm)
+ #3. Nylon (0.5mm)
+ #4. Nylon (0.5mm)
+ #5. Nylon (0.5mm)
+ #6. Nylon (0.5mm)
+ #7. High-Carbon Steel (0.93mm)
+ #8. Pure Nickel (0.81mm)
+ #9. Nickel Plated (0.79mm)
+ #10. Cobalt (0.95mm)
+ #11. Maraging Steel (0.76mm)
+ #12. Bronze (0.74mm)
+~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~
+
+T6: Change all strings
+==========:==========:==========:==========:==========
+Guitar Model: Cordoba F7 Acoustic Nylon String Flamenco Guitar
+Strings:
+ #1. Nylon (0.5mm)
+ #2. Nylon (0.5mm)
+ #3. Nylon (0.5mm)
+ #4. Nylon (0.5mm)
+ #5. Nylon (0.5mm)
+ #6. Nylon (0.5mm)
+Has strings? [yes]
+~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~
+
+T7: Change some strings
+==========:==========:==========:==========:==========
+Has strings? [yes]
+Guitar Model: Cordoba F7 Acoustic Nylon String Flamenco Guitar
+Strings:
+ #1. Nylon (0.62mm)
+ #2. Nylon (0.77mm)
+ #3. Silver (1.1mm)
+ #4. Bronze (0.74mm)
+ #5. Maraging Steel (0.76mm)
+ #6. Steel (0.92mm)
+~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~
+
+T8: Remove the strings
+==========:==========:==========:==========:==========
+Guitar Model: Cordoba F7 Acoustic Nylon String Flamenco Guitar
+Guitar cannot be used yet because it has no strings.
+Has strings? [no]
+~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~:~~~~~~~~~~
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==65223== 
+==65223== HEAP SUMMARY:
+==65223==     in use at exit: 0 bytes in 0 blocks
+==65223==   total heap usage: 4 allocs, 4 frees, 73,664 bytes allocated
+==65223== 
+==65223== All heap blocks were freed -- no leaks are possible
+==65223== 
+==65223== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Tue 13 Feb 2024 11:28:40 AM EST

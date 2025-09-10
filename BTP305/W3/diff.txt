@@ -1,0 +1,14 @@
+In line number 405 of your output:
+The output should be:
+B | Harry Potter...................................... | UK | 1997 | Harry realizes his life is far from ordinary.
+    ^
+But your output is: 
+B | A Song of Ice and Fire............................ | US | 1997 | Nine noble families begin fighting for control over the mythical lands of Westeros.
+    ^
+
+Unmatched character details:
+The character in column 5 is supposed to be:
+  [H] ASCII code(72)
+but you printed
+  [A] ASCII code(65)
+

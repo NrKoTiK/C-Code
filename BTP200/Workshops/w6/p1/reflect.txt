@@ -1,0 +1,10 @@
+This workshop helped me understand iostream and fstream (input output stream for files). first off fstream is sooo much simpler then fscanf which made my life easier when coding the file reading and writing
+I learnt how ifstream is for input which puts the file in reading state. And ofstream is for output which puts file in writing state. I also learnt that iostream is related to fstream as they are related classes.
+Some of the difficulties i faced when making this code was the "heap corruption" which was acctually just uninitialized variables that just needed to be declared. And Another problem I was facing was understanding the 
+functionality of the code. But then asking Sir Cornel helped me a lot.
+
+When we dont check for self assignment the compiler deletes "*this" objects data and then tries to copy date from "copyOfE" into "*this" which dosnt exsists and this results in a undefined behavior because we are trying to access
+deleted memory.
+
+According to stackoverflow: The copy constructor is used to create and initialize new objects. while the assignment operator is used to deal and copy with an exsisting object.
+The copy constructor does not have the capabilities to operate on initialized objects and the assignment operator can not operate on uninitialized object.

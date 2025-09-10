@@ -1,0 +1,4 @@
+This workshop has taught me a lot about polymorphism and abstract classes. I understood the implementation of virtual functions and a virtual class which is able to make every class talk to each other.
+The couple errors I was facing were with actually understanding how to implement and use virtual functions accross all the classes. For example the iAccount class holds all of the virtual functions
+the problem I was facing was how do I actually access these functions in the Account, SavingsAccount and ChequingAccount classes. I came to a conclusion that the functions in iAccount class are pure
+virtual functions and they do not have a definition as iAccount is a abstract class. This allowed me to implement the virtual functions in all the other classes.

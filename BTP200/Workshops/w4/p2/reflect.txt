@@ -1,0 +1,11 @@
+Ahmad Syed
+102437233
+
+Doing this workshop I learnt the difference between destructor and a function that resets the object to a empty state
+A destructor destroies the object while the function that resets the objects it puts the object into a default state
+and this is where I was facing my major error. I ended up not setting the object to a default state when calling deString function
+
+The Constructor and Destructor are crucial when it comes to making a program with multiple classes as the constructor creates the 
+object and puts it in a default state by giving its instance variables some default value. The destructor is equally important as
+it handles the objects life and chooses when the object should be terminated. These functions make sure the object is valid 
+and is used affectively.

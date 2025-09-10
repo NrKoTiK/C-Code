@@ -1,0 +1,14 @@
+In line number 16 of your output:
+The output should be:
+   Select The Lineup:
+           ^
+But your output is: 
+   Select Type of Registration:
+           ^
+
+Unmatched character details:
+The character in column 12 is supposed to be:
+  [h] ASCII code(104)
+but you printed
+  [y] ASCII code(121)
+
